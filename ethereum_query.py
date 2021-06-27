@@ -52,5 +52,5 @@ def get_most_expensive_transaction(block_num):
 		if get_transaction_cost(tx) > max:
 			max = get_transaction_cost(tx)
 			max_tx = tx
-	max_tx = HexBytes('max_tx')  #YOUR CODE HERE
+	max_tx = HexBytes(max_tx)  #YOUR CODE HERE
 	return max_tx
